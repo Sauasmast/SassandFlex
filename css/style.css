@@ -1,0 +1,18 @@
+body {
+  background-color: #D3D3D3;
+  font-family: sans-serif; }
+  body ul {
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    background-color: black;
+    min-height: 30px; }
+  body li {
+    list-style: none;
+    display: block;
+    color: white;
+    height: 10;
+    flex-basis: 200px;
+    flex-grow: 1; }
+
+/*# sourceMappingURL=style.css.map */
