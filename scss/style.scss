@@ -1,0 +1,50 @@
+$background-color:#D3D3D3;
+$font: sans-serif;
+
+ @mixin mine($width) {
+     @media screen and (min-width:$width){
+         @content;
+     }
+}
+
+
+body{
+    background-color: $background-color;
+    font-family: $font;
+}
+    
+    ul{
+         padding-top:10px;
+        background-color: grey;
+        min-height: 30px;
+        padding-bottom:10px;
+         
+        @include mine(865px){
+            flex-wrap:wrap;
+            display:flex;
+        }
+        
+    }
+    
+    
+    
+    li{
+        list-style: none;
+        display:block;
+        color: white;
+        text-align: center;
+        min-height: 10px;
+        padding-top: 5px;
+        
+        &:hover{
+            background-color: lighten(black, 10);
+        } 
+        
+        @include mine(865px){
+            flex-basis:200px;
+            flex-grow:1;
+        }
+    }
+    
+
+

@@ -1,0 +1,29 @@
+body {
+  background-color: #D3D3D3;
+  font-family: sans-serif; }
+
+ul {
+  padding-top: 10px;
+  background-color: grey;
+  min-height: 30px;
+  padding-bottom: 10px; }
+  @media screen and (min-width: 865px) {
+    ul {
+      flex-wrap: wrap;
+      display: flex; } }
+
+li {
+  list-style: none;
+  display: block;
+  color: white;
+  text-align: center;
+  min-height: 10px;
+  padding-top: 5px; }
+  li:hover {
+    background-color: #1a1a1a; }
+  @media screen and (min-width: 865px) {
+    li {
+      flex-basis: 200px;
+      flex-grow: 1; } }
+
+/*# sourceMappingURL=style.css.map */
