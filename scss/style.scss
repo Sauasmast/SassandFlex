@@ -10,7 +10,7 @@ body{
         display:flex;
         padding-top:10px;
         flex-wrap:wrap;
-        background-color: black;
+        background-color: grey;
         min-height: 30px;
     }
     
@@ -18,9 +18,13 @@ body{
         list-style: none;
         display:block;
         color: white;
-        height:(2*5);
         flex-basis:200px;
         flex-grow:1;
+        
+        &:hover{
+            background-color: lighten(black, 10);
+            cursor:help;
+        }
         
     }
 }

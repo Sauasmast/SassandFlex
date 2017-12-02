@@ -5,14 +5,16 @@ body {
     display: flex;
     padding-top: 10px;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: grey;
     min-height: 30px; }
   body li {
     list-style: none;
     display: block;
     color: white;
-    height: 10;
     flex-basis: 200px;
     flex-grow: 1; }
+    body li:hover {
+      background-color: #1a1a1a;
+      cursor: help; }
 
 /*# sourceMappingURL=style.css.map */
